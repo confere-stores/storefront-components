@@ -1,0 +1,11 @@
+.backdrop {
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark);
+  opacity: .65;
+  cursor: pointer;
+  z-index: -100;
+}

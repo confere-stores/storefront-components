@@ -1,0 +1,19 @@
+.picture {
+  display: inline-block;
+  width: 100%;
+  transition: opacity .2s;
+  overflow: hidden;
+
+  &:not(.loaded) {
+    background: linear-gradient(25deg, var(--light) 40%, var(--gray) 200%);
+    opacity: .3;
+    height: 100%;
+    min-height: 50px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
